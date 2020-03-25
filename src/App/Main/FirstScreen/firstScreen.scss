@@ -1,0 +1,84 @@
+.first-screen {
+    margin-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 560px;
+    &__col {
+        width: 32%;
+        height: 48%;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+            border-radius: 10px;
+        }
+        &:nth-child(1) {
+            height: 100%;
+            .block {
+                .author-date {
+                    font-size: 14px;
+                    bottom: 100px;
+                }
+                .title {
+                    width: 90%;
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+            }
+        }
+        &:nth-child(4) {
+            img {
+                object-position: 0 -150px
+            }
+        }
+        &:nth-child(5) {
+            img {
+                object-fit: cover;
+                object-position: right;
+            }
+
+        }
+    }
+    .block {
+        border-radius: 10px;
+        .category {
+            top: 30px;
+            left: 20px;
+        }
+        .author-date {
+            left: 20px;
+            bottom: 80px;
+        }
+        .title {
+            left: 20px;
+            bottom: 23px;
+            width: 70%;
+        }
+        .shadow {
+            width: 100%;
+            border-radius: 10px;
+            bottom: 0;
+            height: 50%;
+        }
+        &:hover {
+            cursor: pointer;
+            .shadow {
+                height: 100%;
+            }
+            img {
+                transform: scale(1.5);
+            }
+            .category {
+                transform: scale(1.3);
+                left: 30px;
+            }
+            .title, .author-date {
+                transform: translateY(-20px);
+            }
+        }
+        .category, .author-date, .title, .shadow {
+            position: absolute;
+        }
+    }
+}

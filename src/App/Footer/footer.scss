@@ -1,0 +1,15 @@
+.footer {
+    background: #000;
+    &__wrapper  {
+        height: 94px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__rights {
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+        flex: 2;
+    }
+}

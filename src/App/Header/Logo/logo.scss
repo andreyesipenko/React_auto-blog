@@ -1,0 +1,19 @@
+$main-color: #4A90E2;
+
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+.logo {
+    flex: 1;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+    span {
+        margin-left: 5px;
+        background-color: $main-color;
+        padding: 3px 6px 3px 4px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+}

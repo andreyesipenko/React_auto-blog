@@ -1,0 +1,22 @@
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    transition: .5s;
+    input {
+        display: block;
+        margin-right: 15px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        width: 0%;
+        transition: .8s;
+        background: #000;
+    }
+    &:hover{
+        input{
+            width: 50%;
+            background: #ffffff;
+            border-radius: 10px;
+        }
+    }
+}

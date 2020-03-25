@@ -1,0 +1,10 @@
+.contact {
+    background: #171717;
+    padding-bottom: 60px;
+    &__wrapper {
+        width: 91.5%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 6%;
+    }
+}

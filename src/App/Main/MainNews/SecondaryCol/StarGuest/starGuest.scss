@@ -1,0 +1,56 @@
+$main-color: #4A90E2;
+
+.star-guest {
+    margin-bottom: 75px;
+    &__block {
+        img {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #171717;
+            margin-bottom: 8px;
+        }
+        .profession {
+            margin-bottom: 14px;
+            font-style: italic;
+            font-size: 14px;
+            color: #999999;
+        }
+        .story {
+            font-size: 15px;
+            line-height: 25px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        button {
+            width: 100%;
+            background: #232323;
+            border-radius: 5px;
+            padding-top: 17px;
+            padding-bottom: 15px;
+            border: none;
+            box-shadow: 0 8px 15px rgba(0,0,0,.1);
+            transition: .5s;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+                display: block;
+            }
+            &:hover {
+                background: $main-color;
+                box-shadow: 0 15px 20px rgba(46,229,157,.4);
+                color: white;
+                transform: translateY(7px);
+            }
+        }
+    }
+}

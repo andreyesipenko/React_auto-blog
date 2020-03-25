@@ -1,0 +1,30 @@
+.tags {
+    margin-bottom: 60px;
+    &__title {
+        font-size: 18px;
+        color: #171717;
+        margin-bottom: 23px;
+        font-weight: bold;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__block {
+        padding: 7px 13px 7px 13px;
+        background: #EBEBEB;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        transition: .5s;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+            padding: 10.5px 21px 10.5px 21px;
+            background: #232323;
+            color: #ffffff;
+            padding: 6px 11px 5px 11px;
+        }
+    }
+}

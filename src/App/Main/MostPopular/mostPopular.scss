@@ -1,0 +1,29 @@
+.most-popular {
+    margin-bottom: 80px;
+    &__title {
+        font-size: 30px;
+        color: #171717;
+        margin-bottom: 27px;
+        font-weight:bold;
+    }
+    &__block {
+        padding: 15px;
+    }
+    .block {
+        height: 324px;
+        .category {
+            position: absolute;
+            left: 30px;
+            top: 20px;
+        }
+        img {
+            height: 195px;
+        }
+        .title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 28px;
+            color: #171717;
+        }
+    }
+}

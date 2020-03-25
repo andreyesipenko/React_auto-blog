@@ -1,0 +1,50 @@
+.popular-posts {
+    margin-bottom: 59px;
+    &__block {
+        margin-bottom: 39px;
+        overflow: hidden;
+        transition: .8s;
+    }
+    &__title {
+        font-size: 18px;
+        color: #171717;
+        margin-bottom: 23px;
+        font-weight: bold;
+    }
+    .block {
+        transition: .2s;
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+        .category {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        img {
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        .title {
+            font-size: 20px;
+            line-height: 28px;
+            color: #171717;
+            order: 1;
+            margin-bottom: 10px
+        }
+        .author-date {
+            order: 2;
+            color: #666666;
+        }
+        &:hover {
+            img {
+                box-shadow: 5px 5px 5px rgba(0,0,0,.3)
+            }
+            .category{
+                transform: scale(1.2);
+            }
+        }
+    }
+
+}

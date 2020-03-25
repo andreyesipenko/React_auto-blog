@@ -1,0 +1,101 @@
+.main-col {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    &__block {
+        margin-bottom: 70px;
+        img {
+            display: block;
+            z-index: -1;
+            object-fit: contain;
+        }
+        .category, .title, .author-date, .description{
+            position: absolute;
+        }
+        .info {
+            position: relative;
+            width: 92%;
+            z-index: 3;
+            background-color: #ffffff;
+            margin: 0 auto;
+            height: 249px;
+            margin-top: -120px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            .category {
+                left: 30px;
+                top: 30px;
+            }
+            .title {
+                color: #000;
+                left: 30px;
+                top: 72px;
+                font-size: 25px;
+                line-height: 28px;
+            }
+            .author-date {
+                color: #000;
+                top: 115px;
+                left: 30px;
+                color: #666666;
+                font-style: italic;
+                font-size: 14px;
+
+            }
+            .description {
+                width: 614px;
+                top: 147px;
+                left: 30px;
+                font-size: 14px;
+                line-height: 24px;
+                color: #666666;
+            }
+        }
+    }
+    &__buttons {
+        width: 340px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        .button_active {
+            background: #000000;
+            border: none;
+            color: #ffffff;
+            transition: .3s;
+            a {
+                color: #ffffff;
+            }
+            &:hover {
+                box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+                background: #000000;
+            }
+        }
+    }
+    &__button {
+        width: 40px;
+        height: 100%;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: #000000;
+            transition: .3s;
+        }
+        &:hover {
+            box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+            background: gray;
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}
+

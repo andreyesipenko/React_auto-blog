@@ -1,0 +1,37 @@
+.keep {
+    width: 32%;
+    .logo {
+        margin-top: 12px;
+        margin-bottom: 28px;
+    }
+    &__descr {
+        font-size: 14px;
+        line-height: 22px;
+        color: #CECECE;
+        margin-bottom: 64px;
+    }
+    &__title {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 23px;
+        font-weight: bold;
+    }
+    &__social-media {
+        display: flex;
+        &_block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            width: 34px;
+            height: 34px;
+            background: #373737;
+            border-radius: 3px;
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

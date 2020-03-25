@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    &__button{
+        cursor: pointer;
+        a {
+	        font-family: 'PT Sans', sans-serif;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 14px;
+        }
+    }
+    
+}
