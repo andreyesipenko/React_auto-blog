@@ -12,19 +12,19 @@ class Menu extends React.Component {
                     <Link to="/">Home</Link>
                 </div>
                 <div className="menu__button">
-                    <Link to="/oldcars">Old Cars</Link>
+                    <Link to="/category">Old Cars</Link>
                 </div>
                 <div className="menu__button">
-                    <Link to="/concept">Concepts</Link>
+                    <Link to="/category">Concepts</Link>
                 </div>
                 <div className="menu__button">
-                    <Link to="/offroad">Off-Road</Link>
+                    <Link to="/category">Off-Road</Link>
                 </div>
                 <div className="menu__button">
-                    <Link to="/sport">Sport</Link>
+                    <Link to="/category">Sport</Link>
                 </div>
                 <div className="menu__button">
-                    <Link to="/business">Business</Link>
+                    <Link to="/category">Business</Link>
                 </div>
             </div>
 		)

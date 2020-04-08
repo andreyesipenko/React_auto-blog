@@ -4,11 +4,8 @@ import FirstScreen from './FirstScreen/FirstScreen'
 import MainNews from './MainNews/MainNews'
 import MostPopular from './MostPopular/MostPopular'
 import Contact from './Contact/Contact'
-import OldCarsPage from './OldCarsPage/OldCarsPage';
-import ConceptPage from './ConceptPage/ConceptPage'
-import OffRoadPage from './OffRoadPage/OffRoadPage';
-import SportPage from './SportPage/SportPage';
-import BusinessPage from './BusinessPage/BusinessPage';
+import CategoryPage from './CategoryPage/CategoryPage'
+import ArticlePage from './ArticlePage/ArticlePage'
 
 class Main extends React.Component {
 	render () {
@@ -19,11 +16,8 @@ class Main extends React.Component {
 					<Route exact path='/' component={MainNews} />
 					<Route exact path='/' component={MostPopular} />
 
-					<Route path='/oldcars' component={OldCarsPage} />
-					<Route path='/concept' component={ConceptPage} />
-					<Route path='/offroad' component={OffRoadPage} />
-					<Route path='/sport' component={SportPage} />
-					<Route path='/business' component={BusinessPage} />
+					<Route path='/category' component={CategoryPage} />
+					<Route path='/article' component={ArticlePage}></Route>
 				</div>
 				<Route exact path='/' component={Contact} />
 			</main>

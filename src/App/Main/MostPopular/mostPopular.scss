@@ -19,11 +19,21 @@
         img {
             height: 195px;
         }
-        .title {
-            font-size: 18px;
-            margin-bottom: 10px;
-            line-height: 28px;
-            color: #171717;
+        .info {
+            display: flex;
+            flex-direction: column;
+            .title {
+                font-size: 18px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                line-height: 28px;
+                color: #171717;
+                order: 1;
+            }
+            .author-date {
+                color: #000;
+                order: 2;
+            }
         }
     }
 }

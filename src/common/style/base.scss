@@ -49,12 +49,15 @@ body {
     }
     
     .title {
-        font-weight: bold;
-        color: #FFFFFF;
-        z-index: 3;
-        font-size: 21px;
-        line-height: 25px;
         transition: .8s;
+        z-index: 3;
+        a {
+            font-weight: bold;
+            color: #000000;
+            font-size: 21px;
+            line-height: 25px;
+            text-decoration: none;
+        }
     }
     
     .shadow {

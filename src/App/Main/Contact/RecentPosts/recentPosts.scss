@@ -32,9 +32,12 @@
                 flex-direction: column;
                 justify-content: center;
                 .title {
+                    a {
+                        color: #FFFFFF;
+                        font-size: 15px;
+                        line-height: 26px;
+                    }
                     order: 1;
-                    font-size: 15px;
-                    line-height: 26px;
                     margin-bottom: 13px;
                 }
                 .author-date {
