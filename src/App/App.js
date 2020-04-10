@@ -8,11 +8,41 @@ import './../common/style/reset.css'
 import './../common/style/base.scss'
 
 class App extends React.Component {
+
+	state = {
+		likeButtonsState: {
+			1: true,
+			2: true,
+		}
+	}
+
+	addLike = (articleId) => {
+		this.setState((prevState)=>({
+			likeButtonsState: {
+				...prevState.likeButtonsState,
+				[articleId]: true,
+			}
+		}))
+	}
+
+	removeLike = (articleId) => {
+		this.setState((prevState)=>({
+			likeButtonsState: {
+				...prevState.likeButtonsState,
+				[articleId]: false,
+			}
+		}))
+	}
+
 	render () {
 		return (
 			<div>
 				<Header />
-				<Main />
+				<Main 
+					likeButtonsState={this.state.likeButtonsState}
+					addLike={this.addLike}
+					removeLike={this.removeLike}
+				/>
 				<Footer />
 			</div>
 		)

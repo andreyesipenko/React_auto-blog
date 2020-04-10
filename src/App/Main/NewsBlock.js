@@ -6,6 +6,18 @@ import './../../common/style/base.scss'
 import {Link} from 'react-router-dom'
 
 class NewsBlock extends React.Component {
+
+    changeLikeState () {
+        const {
+            isLiked,
+            removeLike,
+            addLike,
+            id,
+        } = this.props;
+
+        isLiked ? removeLike(id) : addLike(id)
+    }
+
 	render () {
         const {
             image,
@@ -13,7 +25,8 @@ class NewsBlock extends React.Component {
             authorDate,
             title,
             description,
-            id
+            id,
+            isLiked = false,
         } = this.props;
 
 		return (
@@ -25,6 +38,10 @@ class NewsBlock extends React.Component {
                 />
                 <div className="info">
                     <div className="category">{category}</div>
+                    <button
+                        onClick={()=>this.changeLikeState()}>
+                        {isLiked ? <span>&#9829;</span> : <span>&#9825;</span> }
+                    </button>
                     <div className="author-date">{authorDate}</div>
                     <div className="title">
                         <Link to='/articles/${id}'>{title}</Link>

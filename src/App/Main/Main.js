@@ -12,12 +12,16 @@ class Main extends React.Component {
 		return (
 			<main>
 				<div className="container">
-                	<Route exact path='/' component={FirstScreen} />
+                	<Route exact path='/' component={FirstScreen} 
+						likeButtonsState={this.props.likeButtonsState}
+						addLike={this.props.addLike}
+						removeLike={this.props.removeLike}
+					/>
 					<Route exact path='/' component={MainNews} />
 					<Route exact path='/' component={MostPopular} />
 
 					<Route path='/category' component={CategoryPage} />
-					<Route path='/articles/:id' component={ArticlePage}></Route>
+					<Route path='/articles/:id' component={ArticlePage} />
 				</div>
 				<Route exact path='/' component={Contact} />
 			</main>
