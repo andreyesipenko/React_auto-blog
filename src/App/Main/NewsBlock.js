@@ -13,6 +13,7 @@ class NewsBlock extends React.Component {
             authorDate,
             title,
             description,
+            id
         } = this.props;
 
 		return (
@@ -26,7 +27,7 @@ class NewsBlock extends React.Component {
                     <div className="category">{category}</div>
                     <div className="author-date">{authorDate}</div>
                     <div className="title">
-                        <Link to='/article'>{title}</Link>
+                        <Link to='/articles/${id}'>{title}</Link>
                     </div>
                     <div className="description">{description}</div>
                 </div>

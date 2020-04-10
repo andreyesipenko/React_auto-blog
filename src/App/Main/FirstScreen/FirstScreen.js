@@ -22,6 +22,7 @@ class FirstScreen extends React.Component {
 						return (
 							<div key={id} className='first-screen__col'>
 								<NewsBlock 
+									id={id}
 									image={image}
 									category={category}
 									authorDate={authorDate}

@@ -9,7 +9,7 @@ const ArticlePage = ({
 }) => {
 	return (
 		<div className='article'>
-			
+			<h1> Hello {articlesObj[match.params.id].title} </h1>
 		</div>
 	)
 }
