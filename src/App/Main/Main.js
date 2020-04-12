@@ -20,7 +20,7 @@ class Main extends React.Component {
 					<Route exact path='/' component={MainNews} />
 					<Route exact path='/' component={MostPopular} />
 
-					<Route path='/category' component={CategoryPage} />
+					<Route path='/:category' component={CategoryPage} />
 					<Route path='/articles/:id' component={ArticlePage} />
 				</div>
 				<Route exact path='/' component={Contact} />
