@@ -27,9 +27,9 @@ class FirstScreen extends React.Component {
 									category={category}
 									authorDate={authorDate}
 									title={title}
-									isLiked={this.props.likeButtonsState[id]}
-									addLike={this.props.addLike}
-									removeLike={this.props.removeLike}
+									// isLiked={this.props.likeButtonsState[id]}
+									// addLike={this.props.addLike}
+									// removeLike={this.props.removeLike}
 								/>
 							</div>
 						)

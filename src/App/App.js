@@ -11,10 +11,10 @@ class App extends React.Component {
 
 	state = {
 		likeButtonsState: {
-			1: true,
-			2: true,
+			6: true,
+			7: true,
 		}
-	}
+	   }
 
 	addLike = (articleId) => {
 		this.setState((prevState)=>({

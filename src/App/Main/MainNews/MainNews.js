@@ -8,7 +8,11 @@ class MainNews extends React.Component {
 	render () {
 		return (
             <section className='main-news'>
-				<MainCol />
+				<MainCol 
+					likeButtonsState={this.props.likeButtonsState}
+					addLike={this.props.addLike}
+					removeLike={this.props.removeLike}
+				/>
 				<SecondaryCol />
             </section>
 		)

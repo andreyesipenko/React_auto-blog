@@ -39,12 +39,13 @@ class NewsBlock extends React.Component {
                 <div className="info">
                     <div className="category">{category}</div>
                     <button
+                        className='like'
                         onClick={()=>this.changeLikeState()}>
                         {isLiked ? <span>&#9829;</span> : <span>&#9825;</span> }
                     </button>
                     <div className="author-date">{authorDate}</div>
                     <div className="title">
-                        <Link to='/articles/${id}'>{title}</Link>
+                        <Link to={`/articles/${id}`}>{title}</Link>
                     </div>
                     <div className="description">{description}</div>
                 </div>
