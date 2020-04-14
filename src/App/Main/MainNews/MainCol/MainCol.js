@@ -26,7 +26,7 @@ class MainCol extends React.Component {
 									authorDate={authorDate}
 									title={title}
                                     description={description}
-                                    likeButtonsState={this.props.likeButtonsState[id]}
+                                    isLiked={this.props.likeButtonsState[id]}
                                     addLike={this.props.addLike}
                                     removeLike={this.props.removeLike}
 								/>

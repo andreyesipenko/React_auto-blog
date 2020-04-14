@@ -13,7 +13,11 @@ class MainNews extends React.Component {
 					addLike={this.props.addLike}
 					removeLike={this.props.removeLike}
 				/>
-				<SecondaryCol />
+				<SecondaryCol 
+					likeButtonsState={this.props.likeButtonsState}
+					addLike={this.props.addLike}
+					removeLike={this.props.removeLike}
+				/>
             </section>
 		)
 	}

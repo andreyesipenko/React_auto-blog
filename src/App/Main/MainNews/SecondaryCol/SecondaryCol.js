@@ -13,7 +13,11 @@ class SecondaryCol extends React.Component {
 		return (
 			<div className='secondary-col'>
                 <StarGuest />
-				<PopularPosts />
+				<PopularPosts 
+					likeButtonsState={this.props.likeButtonsState}
+					addLike={this.props.addLike}
+					removeLike={this.props.removeLike}
+				/>
 				<Instagram />
 				<Tags />
 				<EmailNewsletter />

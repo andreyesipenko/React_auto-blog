@@ -1,6 +1,6 @@
 import React from 'react';
 
-import newsBlockData from './../../../newsBlockData'
+import instagramData from './instagramData'
 import insta from './insta.svg'
 
 import './instagram.scss'
@@ -14,7 +14,7 @@ class Instagram extends React.Component {
 				</div>
 				<div className='instagram__wrapper'>
                 {
-					newsBlockData.filter(item => item.id > 14 && item.id < 21).map(({
+					instagramData.filter(item => item.id > 14 && item.id < 21).map(({
 						id,
 						image,
 					})=>{

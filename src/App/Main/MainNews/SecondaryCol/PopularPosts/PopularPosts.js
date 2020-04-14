@@ -25,6 +25,9 @@ class PopularPosts extends React.Component {
 									image={image}
 									category={category}
 									title={title}
+									isLiked={this.props.likeButtonsState[id]}
+									addLike={this.props.addLike}
+									removeLike={this.props.removeLike}
 								/>
 							</div>
 						)
