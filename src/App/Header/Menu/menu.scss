@@ -1,7 +1,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    flex: 1;
+    flex: 2;
     &__button{
         cursor: pointer;
         a {
@@ -11,5 +11,18 @@
             font-size: 14px;
         }
     }
-    
+    .favourite {
+        padding-left: 50px;
+        position: relative;
+        text-transform: uppercase;
+        div {
+            position: absolute;
+            top: -13px;
+            right: -13px;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 3px 6px;
+            opacity: 70%;
+        }
+    }
 }

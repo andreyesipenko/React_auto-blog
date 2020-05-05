@@ -34,13 +34,14 @@ export default class MostPopular extends Component {
                       return (
                           <div key={id} className='most-popular__block'>
                               <NewsBlock 
-                                  image={image}
-                                  category={category}
-                                  authorDate={authorDate}
-                                  title={title}
-                                  isLiked={this.props.likeButtonsState[id]}
-                                  addLike={this.props.addLike}
-                                  removeLike={this.props.removeLike}
+                                id={id}
+                                image={image}
+                                category={category}
+                                authorDate={authorDate}
+                                title={title}
+                                isLiked={this.props.likeButtonsState[id]}
+                                addLike={this.props.addLike}
+                                removeLike={this.props.removeLike}
                               />
                           </div>
                       )

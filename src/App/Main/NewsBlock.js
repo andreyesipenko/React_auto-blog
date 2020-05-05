@@ -37,7 +37,7 @@ class NewsBlock extends React.Component {
                     title={title}
                 />
                 <div className="info">
-                    <div className="category">{category}</div>
+                    <div className="category"><Link to={`/category/${category}`}>{category}</Link></div>
                     <button
                         className='like'
                         onClick={()=>this.changeLikeState()}>

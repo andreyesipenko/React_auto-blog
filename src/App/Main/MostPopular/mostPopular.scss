@@ -13,8 +13,13 @@
         height: 324px;
         .category {
             position: absolute;
-            left: 30px;
+            left: 20px;
             top: 20px;
+        }
+        .like {
+            position: absolute;
+            top: 20px;
+            right: 20px;
         }
         img {
             height: 195px;

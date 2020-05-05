@@ -22,6 +22,7 @@ class RecentPosts extends React.Component {
                             return (
                                 <div key={id} className="recent-posts__block">
                                     <NewsBlock 
+                                        id={id}
                                         image={image}
                                         authorDate={authorDate}
                                         title={title}

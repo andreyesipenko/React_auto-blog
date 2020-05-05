@@ -6,6 +6,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 3,
@@ -20,6 +22,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 4,
@@ -27,6 +30,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 5,
@@ -34,6 +38,7 @@ const newsBlockData = [
         category: 'Old Cars',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     // Main Col
     {
@@ -91,6 +96,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 13,
@@ -98,6 +104,7 @@ const newsBlockData = [
         category: 'Off-Road',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 14,
@@ -105,6 +112,7 @@ const newsBlockData = [
         category: 'Off-Road',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     // Instagram
     // {
@@ -138,6 +146,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 22,
@@ -145,6 +154,7 @@ const newsBlockData = [
         category: 'Concept',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 23,
@@ -152,6 +162,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 24,
@@ -159,6 +170,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 25,
@@ -166,6 +178,7 @@ const newsBlockData = [
         category: 'Concept',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 26,
@@ -173,6 +186,7 @@ const newsBlockData = [
         category: 'Concept',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 27,
@@ -180,6 +194,7 @@ const newsBlockData = [
         category: 'Business',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 28,
@@ -187,6 +202,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than anyone',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     // Recent posts
     {
@@ -195,6 +211,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than...',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 30,
@@ -202,6 +219,7 @@ const newsBlockData = [
         category: 'Sport',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than...',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
     {
         id: 31,
@@ -209,6 +227,7 @@ const newsBlockData = [
         category: 'Old Cars',
         authorDate: 'Rickie Baroch - June 6, 2019',
         title: 'One of Saturn’s largest rings may be newer than...',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
     },
 ]
 

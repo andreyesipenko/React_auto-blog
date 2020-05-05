@@ -22,6 +22,7 @@ class PopularPosts extends React.Component {
 						return (
 							<div key={id} className="popular-posts__block">
 								<NewsBlock
+									id={id}
 									image={image}
 									category={category}
 									title={title}

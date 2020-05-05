@@ -21,6 +21,7 @@ class MainCol extends React.Component {
                         return (
                             <div key ={id} className="main-col__block">
                                 <NewsBlock
+                                    id={id}
                                     image={image}
 									category={category}
 									authorDate={authorDate}

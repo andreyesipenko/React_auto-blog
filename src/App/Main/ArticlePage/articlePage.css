@@ -1,0 +1,25 @@
+.article {
+    min-height: 580px;
+}
+
+.article h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article-img {
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.article-descr {
+    font-size: 20px;
+}

@@ -34,7 +34,7 @@ class Main extends React.Component {
 						/>
 					)} />
 
-					<Route path='/:category' component={CategoryPage} />
+					<Route path='/category/:category' component={CategoryPage} />
 					<Route path='/articles/:id' component={ArticlePage} />
 				</div>
 				<Route exact path='/' component={Contact} />
